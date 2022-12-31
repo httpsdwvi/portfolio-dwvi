@@ -1,4 +1,4 @@
-Visualize o portifólio no link a seguir: dwvisantos.netlify.app
+Visualize o portifólio clicando [aqui!](dwvisantos.netlify.app)
 
 # Portifólio - Davi Santos
 
@@ -6,5 +6,5 @@ Este repositório é referente ao meu portifólio pessoal. Nele conto um pouco s
 
 # Stacks utilizadas
 
-Angular
-Bootstrap
+*Angular
+*Bootstrap
