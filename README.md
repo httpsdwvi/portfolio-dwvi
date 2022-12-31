@@ -1,4 +1,4 @@
-Visualize o portifólio no link a seguir: (dwvisantos.netlify.app)
+Visualize o portifólio no link a seguir: https://dwvisantos.netlify.app/
 
 # Portifólio - Davi Santos
 
