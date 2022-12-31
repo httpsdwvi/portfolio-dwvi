@@ -6,5 +6,5 @@ Este repositório é referente ao meu portifólio pessoal. Nele conto um pouco s
 
 # Stacks utilizadas
 
-*Angular
-*Bootstrap
+* Angular
+* Bootstrap
