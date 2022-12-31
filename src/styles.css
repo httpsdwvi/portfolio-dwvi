@@ -1,0 +1,40 @@
+@import "~bootstrap/dist/css/bootstrap.css"; 
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background: #060108;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    margin: 20px;
+}
+
+a:hover {
+    color: #000;
+}
+
+svg {
+    transition: 0.3s
+}
+
+svg:hover {
+    color: #f8f8;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 10px;
+    background: #f8f9fa;
+}
+

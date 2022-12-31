@@ -1,0 +1,52 @@
+.t-about{
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+}
+
+.about {
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.p-about {
+    width: 500px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.container-cards {
+    text-align: center;
+}
+
+h2 {
+    font-weight: 400;
+    color: #fff;
+}
+
+.card-text {
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+    section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .p-about {
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+}
