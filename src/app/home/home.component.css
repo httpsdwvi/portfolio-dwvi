@@ -1,13 +1,12 @@
-.t-about{
-    margin-left: auto;
-    margin-right: auto;
-    color: #fff;
+
+.container-about {
+    margin-top: 25vh;
 }
 
 .about {
     margin-top: 0;
-    text-align: center;
-    margin-bottom: 50px;
+    height: 90vh;
+    text-align: left;
 }
 
 .p-about {
@@ -18,12 +17,16 @@
     margin-right: auto;
 }
 
-.cards {
+.s-s-cards {
     margin-top: 20px;
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 50px;
     margin-bottom: 50px;
+}
+
+.card {
+    border-radius: 10px;
 }
 
 .container-cards {
@@ -31,6 +34,7 @@
 }
 
 h2 {
+    font-size: 26px;
     font-weight: 400;
     color: #fff;
 }
@@ -39,8 +43,123 @@ h2 {
     font-size: 14px;
     text-align: center;
 }
+h2 {
+    text-align: center;
+}
+
+.container-skills, .container-cards, .container-hobbies{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 300px;
+    margin-top: 300px;
+}
+
+.container-skills {
+    padding: 50px;
+    background-color: #B384F2;
+}
+
+mat-list {
+    width: 965px;
+    background-color: #B384F2;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.n-skill {
+    color: #fff;
+}
+
+.b-card-one, .b-card-two {
+    background-color: #fff;
+    max-width: 475px;
+    border-radius: 10px;
+}
+
+.b-card-one {
+    animation: rot-on 0.3s ease-out;
+}
+
+.b-card-two {
+    animation: rot-rev 0.3s ease-out;
+}
+
+mat-card-subtitle {
+    margin-bottom: 5px;
+}
+
+mat-card-content {
+    margin-top: 5px;
+}
+
+.container-hobbies {
+    justify-content: center;
+}
+
+
+.s-b-cards {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.b-card-one:hover {
+	animation: rot-rev 1s ease-in-out;
+}
+
+.b-card-two:hover {
+    animation: rot-on 1s ease-in-out;
+}
+
+@keyframes rot-rev {
+	20% {
+		transform: rotate(-2deg);
+	}
+}
+
+@keyframes rot-on {
+    20% {
+		transform: rotate(2deg);
+	}
+}
+
+@media only screen and (max-width: 980px) {
+    .container-hobbies {
+        max-width: 80vh;
+    }
+    mat-list {
+        max-width: 80vw;
+    }
+
+    .container-cards {
+        max-width: 80vw;
+    }
+}
 
 @media only screen and (max-width: 700px) {
+    .about {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 330px;
+    }
+    .container-skills {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    mat-list, .example-card, .cards{
+        max-width: 330px;
+    }
+    
+    .b-card-one, .b-card-two {
+        max-width: 330px;
+    }
     section {
         display: flex;
         flex-wrap: wrap;

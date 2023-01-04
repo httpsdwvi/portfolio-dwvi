@@ -1,4 +1,9 @@
-@import "~bootstrap/dist/css/bootstrap.css"; 
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Comfortaa', cursive;
+}
 
 html {
     height: 100%;
@@ -10,7 +15,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
-    font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
 a {
