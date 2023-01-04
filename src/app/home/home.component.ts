@@ -1,14 +1,18 @@
 import { Component } from '@angular/core';
 
+<<<<<<< HEAD
 export interface Section {
   name: string;
 }
 
+=======
+>>>>>>> aaf3d5e1d40aab28c91aaf7c11560a0903ffb603
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
+<<<<<<< HEAD
 
 export class HomeComponent {
   skills: Section[] = [
@@ -39,4 +43,8 @@ export class HomeComponent {
       name: 'Passar conhecimento adiante',
     },
   ];
+=======
+export class HomeComponent {
+
+>>>>>>> aaf3d5e1d40aab28c91aaf7c11560a0903ffb603
 }

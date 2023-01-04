@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .spacer {
   margin-top: 17vh;
 }
@@ -17,6 +18,10 @@ button {
 
 .navbar-brand {
   color: #985aee;
+=======
+button {
+    margin-right: 20px;
+>>>>>>> aaf3d5e1d40aab28c91aaf7c11560a0903ffb603
 }
 
 .h-details {
@@ -26,28 +31,44 @@ button {
 }
 
 .h-name {
+<<<<<<< HEAD
     font-size: 30px;
     color: #FFF;
     font-weight: 700;
+=======
+    color: #FFF;
+    font-weight: 800;
+>>>>>>> aaf3d5e1d40aab28c91aaf7c11560a0903ffb603
     margin-bottom: 0;
 }
 
 .h-title {
     color: #985aee;
+<<<<<<< HEAD
     font-size: 24px;
+=======
+>>>>>>> aaf3d5e1d40aab28c91aaf7c11560a0903ffb603
     font-weight: 700;
     margin-bottom: 0;
 }
 
 .h-city {
     color: #FFF;
+<<<<<<< HEAD
     font-size: 22px;
+=======
+>>>>>>> aaf3d5e1d40aab28c91aaf7c11560a0903ffb603
     font-weight: 300;
     margin-bottom: 50px;
 }
 
 img {
+<<<<<<< HEAD
     width: 300px;
+=======
+    height: 300px;
+    width: 300x;
+>>>>>>> aaf3d5e1d40aab28c91aaf7c11560a0903ffb603
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -57,11 +78,19 @@ img {
     cursor: pointer;
     color: #FFF;
     position: absolute;
+<<<<<<< HEAD
     top: calc(100vh - 95px);
     left: calc(50% - 30px);
   }
   
 .down-arrow:after {
+=======
+    top: calc(100vh - 80px);
+    left: calc(50% - 30px);
+  }
+  
+  .down-arrow:after {
+>>>>>>> aaf3d5e1d40aab28c91aaf7c11560a0903ffb603
     content: "";
     position: absolute;
     width: 16px;
@@ -72,7 +101,11 @@ img {
     transform: rotateZ(45deg);
   }
 
+<<<<<<< HEAD
 @keyframes jumpInfinite {
+=======
+  @keyframes jumpInfinite {
+>>>>>>> aaf3d5e1d40aab28c91aaf7c11560a0903ffb603
     0% {
       margin-top: 0;
     }
@@ -84,6 +117,7 @@ img {
     }
   }
 
+<<<<<<< HEAD
 .down-arrow {
     animation: jumpInfinite 2.0s infinite;
 }
@@ -95,6 +129,21 @@ img {
 
 @media only screen and (max-height: 720px) {
     img {
+=======
+  .down-arrow {
+        animation: jumpInfinite 1.5s infinite;
+  }
+
+@media only screen and (max-width: 764px) {
+    .spacer {
+        display: none;
+    }
+}
+
+@media only screen and (max-height: 720px) {
+    img {
+        height: 256px;
+>>>>>>> aaf3d5e1d40aab28c91aaf7c11560a0903ffb603
         width: 256x;
     }
 }

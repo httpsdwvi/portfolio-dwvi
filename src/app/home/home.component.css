@@ -1,22 +1,38 @@
+<<<<<<< HEAD
 
 .container-about {
     margin-top: 25vh;
+=======
+.t-about{
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+>>>>>>> aaf3d5e1d40aab28c91aaf7c11560a0903ffb603
 }
 
 .about {
     margin-top: 0;
+<<<<<<< HEAD
     height: 90vh;
     text-align: left;
 }
 
 .p-about {
     font-size: 18px;
+=======
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.p-about {
+>>>>>>> aaf3d5e1d40aab28c91aaf7c11560a0903ffb603
     width: 500px;
     color: #fff;
     margin-left: auto;
     margin-right: auto;
 }
 
+<<<<<<< HEAD
 .s-s-cards {
     margin-top: 20px;
     display: flex;
@@ -29,17 +45,31 @@
     border-radius: 10px;
 }
 
+=======
+.cards {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+>>>>>>> aaf3d5e1d40aab28c91aaf7c11560a0903ffb603
 .container-cards {
     text-align: center;
 }
 
 h2 {
+<<<<<<< HEAD
     font-size: 26px;
+=======
+>>>>>>> aaf3d5e1d40aab28c91aaf7c11560a0903ffb603
     font-weight: 400;
     color: #fff;
 }
 
 .card-text {
+<<<<<<< HEAD
     font-size: 14px;
     text-align: center;
 }
@@ -160,6 +190,12 @@ mat-card-content {
     .b-card-one, .b-card-two {
         max-width: 330px;
     }
+=======
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+>>>>>>> aaf3d5e1d40aab28c91aaf7c11560a0903ffb603
     section {
         display: flex;
         flex-wrap: wrap;
