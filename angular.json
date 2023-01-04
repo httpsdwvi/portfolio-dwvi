@@ -25,10 +25,6 @@
               "src/assets"
             ],
             "styles": [
-<<<<<<< HEAD
-=======
-              "@angular/material/prebuilt-themes/indigo-pink.css",
->>>>>>> aaf3d5e1d40aab28c91aaf7c11560a0903ffb603
               "src/styles.css"
             ],
             "scripts": []
@@ -91,10 +87,6 @@
               "src/assets"
             ],
             "styles": [
-<<<<<<< HEAD
-=======
-              "@angular/material/prebuilt-themes/indigo-pink.css",
->>>>>>> aaf3d5e1d40aab28c91aaf7c11560a0903ffb603
               "src/styles.css"
             ],
             "scripts": []

@@ -1,11 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-<<<<<<< HEAD
 import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
-=======
->>>>>>> aaf3d5e1d40aab28c91aaf7c11560a0903ffb603
 
 import { MatIconModule } from '@angular/material/icon';
 import { AppRoutingModule } from './app-routing.module';
@@ -27,11 +24,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     NgbModule,
     BrowserAnimationsModule,
     MatIconModule,
-<<<<<<< HEAD
     MatListModule,
     MatCardModule,
-=======
->>>>>>> aaf3d5e1d40aab28c91aaf7c11560a0903ffb603
   ],
   providers: [],
   bootstrap: [AppComponent]
