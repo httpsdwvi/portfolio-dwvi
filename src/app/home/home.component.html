@@ -1,38 +1,43 @@
 <div class="container-about">
-<h2 id="about"> Quem sou? </h2>
-<section class="about">
+  <h2 id="about"> Quem sou? </h2>
+  <section class="about">
     <p class="p-about">
       Olá, sou Davi! <br><br>
-      Um jovem desenvolvedor Front-End, a caminho de se tornar Full-Stack, em início de carreira apaixonado por conhecimento e tecnologia. Formado em Análise e Desenvolvimento de Sistemas em nível técnivo e graduando em Segurança de Informação. <br><br>
+      Um jovem desenvolvedor Front-End, a caminho de se tornar Full-Stack, em início de carreira apaixonado por
+      conhecimento e tecnologia. Formado em Análise e Desenvolvimento de Sistemas em nível técnivo e graduando em
+      Segurança de Informação. <br><br>
       Sempre busco novos desafios, conhecer e testar novas tecnologias e de me aprofundar nas que já domino. <br><br>
       Gosto de trabalhar em equipe, ambientes colaborativos, multiplicar meus conhecimentos e passa-los adiante.
     </p>
-</section>
+  </section>
 </div>
 
 <div class="container-cards">
   <h2 id="jobs">Jobs</h2>
   <section class="s-s-cards">
-      <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h3 class="card-title">Bot da F1</h3>
-          <p class="card-text">Uma API que traz dados e estatísticas da F1. Como telemetria, comparativo entre voltas, chances de título e entre outros.</p>
-          <a href="#" class="card-link">Confira aqui</a>
-        </div>
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h3 class="card-title">Bot da F1</h3>
+        <p class="card-text">Uma API que traz dados e estatísticas da F1. Como telemetria, comparativo entre voltas,
+          chances de título e entre outros.</p>
+        <a href="#" class="card-link">Confira aqui</a>
       </div>
+    </div>
 
     <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h3 class="card-title">Pokemon Stats</h3>
-          <p class="card-text">Uma API que traz dados a respeito dos pokemons. É possível obter informações como Base stats, Movesets e entre outras informações.</p>
-          <a href="https://dwvidex.netlify.app/" target="_blank" class="card-link">Confira aqui</a>
-        </div>
+      <div class="card-body">
+        <h3 class="card-title">Pokemon Stats</h3>
+        <p class="card-text">Uma API que traz dados a respeito dos pokemons. É possível obter informações como Base
+          stats, Movesets e entre outras informações.</p>
+        <a href="https://dwvidex.netlify.app/" target="_blank" class="card-link">Confira aqui</a>
+      </div>
     </div>
 
     <div class="card" style="width: 18rem;">
       <div class="card-body">
         <h3 class="card-title">Projetos</h3>
-        <p class="card-text">Utilizando a tecnologia da melhor maneira, aqui você encontra outros projetos realizados, como portfólios, bots e outras soluções realizadas a terceiros.</p>
+        <p class="card-text">Utilizando a tecnologia da melhor maneira, aqui você encontra outros projetos realizados,
+          como portfólios, bots e outras soluções realizadas a terceiros.</p>
         <a href="https://celiasantos.netlify.app/" target="_blank" class="card-link">Confira aqui</a>
       </div>
     </div>
@@ -41,50 +46,55 @@
 
 <div class="container-skills">
   <h2>Skills</h2>
-<section class="s-skills">
-<mat-list>
-  <div mat-subheader>Hard Skills</div>
-  <mat-list-item *ngFor="let skill of skills">
-    <div class="n-skill" matListItemTitle>{{skill.name}}</div>
-    <mat-icon matListItemIcon>star</mat-icon>
-  </mat-list-item>
-  <mat-divider></mat-divider>
-  <div mat-subheader>Soft Skills</div>
-  <mat-list-item *ngFor="let softskill of softskills">
-    <mat-icon matListItemIcon>star</mat-icon>
-    <div class="n-skill" matListItemTitle>{{softskill.name}}</div>
-  </mat-list-item>
-</mat-list>
-</section>
+  <section class="s-skills">
+    <mat-list>
+      <div mat-subheader>Hard Skills</div>
+      <mat-list-item *ngFor="let skill of skills">
+        <div class="n-skill" matListItemTitle>{{skill.name}}</div>
+        <mat-icon matListItemIcon>star</mat-icon>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <div mat-subheader>Soft Skills</div>
+      <mat-list-item *ngFor="let softskill of softskills">
+        <mat-icon matListItemIcon>star</mat-icon>
+        <div class="n-skill" matListItemTitle>{{softskill.name}}</div>
+      </mat-list-item>
+    </mat-list>
+  </section>
 </div>
 
 <div class="container-hobbies">
   <h2 id="hobbie"> Hobbies & Inspirações </h2>
-<section class="s-b-cards">
-<mat-card class="b-card-one">
-  <mat-card-header>
-    <mat-card-title>Lewis Hamilton</mat-card-title>
-    <mat-card-subtitle>Inspiração</mat-card-subtitle>
-  </mat-card-header>
-  <img mat-card-image src="https://brazilian.report/wp-content/uploads/2022/11/lewis-hamilton-brazil-1920x1080.jpeg" alt="Lewis Hamilton - Foto do piloto de Formula 1">
-  <mat-card-content>
-    <p>
-      Sir Lewis Carl Davidson Hamilton, piloto e heptacampeão mundial de Fórmula 1 é um grande exemplo de persona dentro e fora das pistas com seus projetos e ações sociais.
-    </p>
-  </mat-card-content>
-</mat-card>
+  <section class="s-b-cards">
+    <mat-card class="b-card-one">
+      <mat-card-header>
+        <mat-card-title>Lewis Hamilton</mat-card-title>
+        <mat-card-subtitle>Inspiração</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image src="https://brazilian.report/wp-content/uploads/2022/11/lewis-hamilton-brazil-1920x1080.jpeg"
+        alt="Lewis Hamilton - Foto do piloto de Formula 1">
+      <mat-card-content>
+        <p>
+          Sir Lewis Carl Davidson Hamilton, piloto e heptacampeão mundial de Fórmula 1 é um grande exemplo de persona
+          dentro e fora das pistas com seus projetos e ações sociais.
+        </p>
+      </mat-card-content>
+    </mat-card>
 
-<mat-card class="b-card-two">
-  <mat-card-header>
-    <mat-card-title>Criação de conteúdo</mat-card-title>
-    <mat-card-subtitle>Hobbie</mat-card-subtitle>
-  </mat-card-header>
-  <img mat-card-image src="https://images.unsplash.com/photo-1635830625698-3b9bd74671ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80" alt="Imaagem de um criaador de conteúdo">
-  <mat-card-content>
-    <p>
-      Levo a criação de conteúdo como um hobbie, levo conhecimento e diversão de uma maneira leve para amigos e outras pessoas.
-    </p>
-  </mat-card-content>
-</mat-card>
-</section>
+    <mat-card class="b-card-two">
+      <mat-card-header>
+        <mat-card-title>Criação de conteúdo</mat-card-title>
+        <mat-card-subtitle>Hobbie</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image
+        src="https://images.unsplash.com/photo-1635830625698-3b9bd74671ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"
+        alt="Imaagem de um criaador de conteúdo">
+      <mat-card-content>
+        <p>
+          Levo a criação de conteúdo como um hobbie, levo conhecimento e diversão de uma maneira leve para amigos e
+          outras pessoas.
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </section>
 </div>

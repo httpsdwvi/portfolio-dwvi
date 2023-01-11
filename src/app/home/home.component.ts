@@ -13,16 +13,16 @@ export interface Section {
 export class HomeComponent {
   skills: Section[] = [
     {
-      name: 'Faço a criação de Style Guides',
+      name: 'Criação de Style Guides',
     },
     {
-      name: 'Adequo o seu negócio dentro das métricas SEO e Core Web Vitals',
+      name: 'SEO e Core Web Vitals',
     },
     {
       name: 'Experiência em UX e UI',
     },
     {
-      name: 'Realizo modelagem e execução de testes',
+      name: 'Principais Frameworks Front-end do mercado',
     },
   ];
   softskills: Section[] = [

@@ -71,7 +71,7 @@ mat-list {
 }
 
 .n-skill {
-    color: #fff;
+    color: #FFF;
 }
 
 .b-card-one,
@@ -86,7 +86,7 @@ mat-list {
 }
 
 .b-card-two {
-    animation: rot-rev 0.3s ease-out;
+    animation: rot-rev 0.3s;
 }
 
 mat-card-subtitle {
