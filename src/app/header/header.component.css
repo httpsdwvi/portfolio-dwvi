@@ -3,8 +3,8 @@
 }
 
 button {
-    margin-right: 20px;
-    background-color: #fff;
+  margin-right: 20px;
+  background-color: #fff;
 }
 
 .navbar-custom {
@@ -15,86 +15,94 @@ button {
   color: #fff;
 }
 
+.nav-link:hover {
+  color: #985aee;
+}
+
 .navbar-brand {
   color: #985aee;
 }
 
 .h-details {
-    margin-top: 70px;
-    text-align: center;
-    min-height: 100vh;
+  margin-top: 70px;
+  text-align: center;
+  min-height: 100vh;
 }
 
 .h-name {
-    font-size: 30px;
-    color: #FFF;
-    font-weight: 700;
-    margin-bottom: 0;
+  font-size: 30px;
+  color: #FFF;
+  font-weight: 700;
+  margin-bottom: 0;
 }
 
 .h-title {
-    color: #985aee;
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 0;
+  color: #985aee;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 0;
 }
 
 .h-city {
-    color: #FFF;
-    font-size: 22px;
-    font-weight: 300;
-    margin-bottom: 50px;
+  color: #FFF;
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 50px;
 }
 
 img {
-    width: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .down-arrow {
-    cursor: pointer;
-    color: #FFF;
-    position: absolute;
-    top: calc(100vh - 95px);
-    left: calc(50% - 30px);
-  }
-  
+  cursor: pointer;
+  color: #FFF;
+  position: absolute;
+  top: calc(100vh - 95px);
+  left: calc(50% - 30px);
+}
+
 .down-arrow:after {
-    content: "";
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    border-bottom: 4px solid;
-    border-right: 4px solid;
-    border-radius: 4px;
-    transform: rotateZ(45deg);
-  }
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-bottom: 4px solid;
+  border-right: 4px solid;
+  border-radius: 4px;
+  transform: rotateZ(45deg);
+}
 
 @keyframes jumpInfinite {
-    0% {
-      margin-top: 0;
-    }
-    50% {
-      margin-top: 20px;
-    }
-    100% {
-      margin-top: 0;
-    }
+  0% {
+    margin-top: 0;
   }
 
+  50% {
+    margin-top: 20px;
+  }
+
+  100% {
+    margin-top: 0;
+  }
+}
+
 .down-arrow {
-    animation: jumpInfinite 2.0s infinite;
+  animation: jumpInfinite 2.0s infinite;
 }
 
-@media only screen and (max-width: 305px) {
-  img {display: none;}
+@media (max-width: 305px) {
+  img {
+    display: none;
+  }
 }
 
 
-@media only screen and (max-height: 720px) {
-    img {
-        width: 256x;
-    }
+@media (max-height: 720px) {
+  img {
+    width: 256x;
+  }
 }

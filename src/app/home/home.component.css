@@ -42,11 +42,14 @@ h2 {
     font-size: 14px;
     text-align: center;
 }
+
 h2 {
     text-align: center;
 }
 
-.container-skills, .container-cards, .container-hobbies{
+.container-skills,
+.container-cards,
+.container-hobbies {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 300px;
@@ -71,7 +74,8 @@ mat-list {
     color: #fff;
 }
 
-.b-card-one, .b-card-two {
+.b-card-one,
+.b-card-two {
     background-color: #fff;
     max-width: 475px;
     border-radius: 10px;
@@ -107,7 +111,7 @@ mat-card-content {
 }
 
 .b-card-one:hover {
-	animation: rot-rev 1s ease-in-out;
+    animation: rot-rev 1s ease-in-out;
 }
 
 .b-card-two:hover {
@@ -115,21 +119,22 @@ mat-card-content {
 }
 
 @keyframes rot-rev {
-	20% {
-		transform: rotate(-2deg);
-	}
+    20% {
+        transform: rotate(-2deg);
+    }
 }
 
 @keyframes rot-on {
     20% {
-		transform: rotate(2deg);
-	}
+        transform: rotate(2deg);
+    }
 }
 
-@media only screen and (max-width: 980px) {
+@media (max-width: 980px) {
     .container-hobbies {
         max-width: 80vh;
     }
+
     mat-list {
         max-width: 80vw;
     }
@@ -139,26 +144,32 @@ mat-card-content {
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media (max-width: 700px) {
     .about {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
         max-width: 330px;
     }
+
     .container-skills {
         padding-top: 50px;
         padding-bottom: 50px;
         padding-left: 0;
         padding-right: 0;
     }
-    mat-list, .example-card, .cards{
+
+    mat-list,
+    .example-card,
+    .cards {
         max-width: 330px;
     }
-    
-    .b-card-one, .b-card-two {
+
+    .b-card-one,
+    .b-card-two {
         max-width: 330px;
     }
+
     section {
         display: flex;
         flex-wrap: wrap;
