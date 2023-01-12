@@ -43,6 +43,10 @@ h2 {
     text-align: center;
 }
 
+.card-link:hover {
+    color: #B384F2;
+}
+
 h2 {
     text-align: center;
 }
